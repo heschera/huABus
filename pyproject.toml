@@ -3,10 +3,10 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "huabus"
+name = "huabus11"
 dynamic = ["version"]
-description = "Huawei Solar Modbus via MQTT and Auto-Discovery"
-authors = [{ name = "arboeh", email = "arend.boehmer@web.de" }]
+description = "Huawei Solar Modbus via MQTT and Auto-Discovery 11"
+authors = [{ name = "heschera", email = "nix@web.de" }]
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.11"
