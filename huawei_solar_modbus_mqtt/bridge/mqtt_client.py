@@ -519,7 +519,7 @@ def _publish_status_sensor(client: mqtt.Client, base_topic: str, device_config: 
     """
     config = {
         "name": "Huawei Solar Status",
-        "unique_id": "huawei_solar_status",
+        "unique_id": "huawei_solar11_status",
         "state_topic": f"{base_topic}/status",
         "payload_on": "online",  # Sensor ist ON wenn "online"
         "payload_off": "offline",  # Sensor ist OFF wenn "offline"
