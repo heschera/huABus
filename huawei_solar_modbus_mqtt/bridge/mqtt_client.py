@@ -416,7 +416,7 @@ def _publish_sensor_configs(
         # Config für diesen Sensor erstellen
         config = _build_sensor_config(sensor, base_topic, device_config)
         # Discovery-Topic: homeassistant/sensor/{device}/{entity}/config
-        topic = f"homeassistant/sensor/huawei_solar/{sensor['key']}/config"
+        topic = f"homeassistant/sensor/huawei_solar11/{sensor['key']}/config"
         # Config als JSON publizieren (QoS=1, retain=True)
         result = client.publish(topic, json.dumps(config), qos=1, retain=True)
         # Auf Publish-Bestätigung warten (verhindert Race-Conditions)
