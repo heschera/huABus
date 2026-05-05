@@ -311,7 +311,7 @@ def _build_sensor_config(sensor: dict[str, Any], base_topic: str, device_config:
     # Basis-Config (Pflichtfelder)
     config = {
         "name": sensor["name"],
-        "unique_id": f"huawei_solar_{sensor['key']}",
+        "unique_id": f"huawei_solar11_{sensor['key']}",
         "state_topic": base_topic,
         # value_template: Extrahiert Wert aus JSON-Payload
         # Default: {{ value_json.key_name }}
