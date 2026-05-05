@@ -466,7 +466,7 @@ def publish_discovery_configs(base_topic: str) -> None:
     # Device-Config für HA Gruppierung
     # Alle Sensoren erscheinen unter diesem Device in HA UI
     device_config = {
-        "identifiers": ["huawei_solar_modbus"],  # Eindeutige Device-ID
+        "identifiers": ["huawei_solar_modbus11"],  # Eindeutige Device-ID
         "name": "Huawei Solar Inverter11",  # Anzeigename
         "model": "SUN2000",  # Modell
         "manufacturer": "Huawei",  # Hersteller
